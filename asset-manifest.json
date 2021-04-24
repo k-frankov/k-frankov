@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/k-frankov/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/k-frankov/static/js/main.5dc1955e.chunk.js",
+    "main.js.map": "/k-frankov/static/js/main.5dc1955e.chunk.js.map",
+    "runtime-main.js": "/k-frankov/static/js/runtime-main.4d8d0ea4.js",
+    "runtime-main.js.map": "/k-frankov/static/js/runtime-main.4d8d0ea4.js.map",
+    "static/js/2.bc634ec0.chunk.js": "/k-frankov/static/js/2.bc634ec0.chunk.js",
+    "static/js/2.bc634ec0.chunk.js.map": "/k-frankov/static/js/2.bc634ec0.chunk.js.map",
+    "static/js/3.3a9f9c49.chunk.js": "/k-frankov/static/js/3.3a9f9c49.chunk.js",
+    "static/js/3.3a9f9c49.chunk.js.map": "/k-frankov/static/js/3.3a9f9c49.chunk.js.map",
+    "index.html": "/k-frankov/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/k-frankov/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.bc634ec0.chunk.js.LICENSE.txt": "/k-frankov/static/js/2.bc634ec0.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/k-frankov/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d8d0ea4.js",
+    "static/js/2.bc634ec0.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.5dc1955e.chunk.js"
+  ]
+}
