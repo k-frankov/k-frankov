@@ -4,11 +4,15 @@ import MobileVersion from "./mobile/MobileVersion";
 
 function App() {
   const size = WindowSize();
-  if (size.width > 600) {
-    return <DesktopVersion />
+
+  if (size.width === undefined) {
+    return <div></div>;
   }
-  else {
-    return <MobileVersion />
+
+  if (size.width > 600) {
+    return <DesktopVersion />;
+  } else {
+    return <MobileVersion />;
   }
 }
 
