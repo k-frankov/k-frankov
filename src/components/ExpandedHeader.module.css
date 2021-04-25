@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0.5vmin;
+  text-align: center;
+  background: rgba(134,147,98,1);
+  color: white;
+  font-size: 30px;
+}
