@@ -5,7 +5,7 @@ import ExpandedHeader from "../components/ExpandedHeader";
 import MainPage from "../components/MainPage";
 import SideInfo from "../components/SideInfo";
 
-const MobileVersion = (props) => {
+const MobileVersion = () => {
   return (
     <div className={styles.container}>
       <Helmet>
@@ -14,7 +14,7 @@ const MobileVersion = (props) => {
       <ExpandedHeader>
         <SideInfo isMobile={true} />
       </ExpandedHeader>
-      <MainPage />
+      <MainPage isMobile={true} />
     </div>
   );
 };

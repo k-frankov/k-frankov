@@ -5,11 +5,11 @@ import data from "../data/mainInfoData";
 import generateHash from "random-hash";
 import MainPageComponent from "./MainPageComponent";
 
-const MainPage = () => {
+const MainPage = ({isMobile}) => {
   useEffect(() => {}, []);
 
   return (
-    <div className={styles.container}>
+    <div className={isMobile ? styles.containerMobile : styles.container}>
       <FadeIn delay={200} transitionDuration={800}>
         {data.map((t) => {
           return (
@@ -17,6 +17,12 @@ const MainPage = () => {
               key={generateHash()}
               headlineContent={t.headlineContent}
               linkText={t.linkText}
+              startDate={t.startDate}
+              endDate={t.endDate}
+              jobTitle={t.jobTitle}
+              companyName={t.companyName}
+              text={t.text}
+              divider={t.divider}
             />
           );
         })}

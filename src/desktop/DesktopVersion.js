@@ -3,14 +3,14 @@ import { Helmet } from "react-helmet";
 import SideInfo from "../components/SideInfo";
 import MainPage from "../components/MainPage";
 
-const DesktopVersion = (props) => {
+const DesktopVersion = () => {
   return (
     <div className={styles.container}>
       <Helmet>
         <title>Konstantin Frankov</title>
       </Helmet>
       <SideInfo isMobile={false} />
-      <MainPage />
+      <MainPage isMobile={false} />
     </div>
   );
 };
