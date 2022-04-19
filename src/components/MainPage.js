@@ -2,11 +2,11 @@ import { useEffect } from "react";
 import styles from "./MainPage.module.css";
 import FadeIn from "react-fade-in";
 import data from "../data/mainInfoData";
-import generateHash from "random-hash";
 import MainPageComponent from "./MainPageComponent";
+import { v4 as uuidv4 } from 'uuid';
 
-const MainPage = ({isMobile}) => {
-  useEffect(() => {}, []);
+const MainPage = ({ isMobile }) => {
+  useEffect(() => { }, []);
 
   return (
     <div className={isMobile ? styles.containerMobile : styles.container}>
@@ -14,7 +14,7 @@ const MainPage = ({isMobile}) => {
         {data.map((t) => {
           return (
             <MainPageComponent
-              key={generateHash()}
+              key={uuidv4()}
               headlineContent={t.headlineContent}
               linkText={t.linkText}
               startDate={t.startDate}
