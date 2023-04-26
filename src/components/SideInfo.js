@@ -14,7 +14,7 @@ const SideInfo = (props) => {
         software development, testing)
       </div>
       <div className={styles.generalInfo}>
-        Interested in Mobile development, learning and improving my skills in React, React Native, Flutter.
+        Interested in Mobile development, learning and improving my skills in React, React Native, TypeScript.
       </div>
       <div className={styles.generalInfo}>
         eMail: k.frankov@gmail.com

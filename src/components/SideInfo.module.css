@@ -3,13 +3,13 @@
   height: "100%";
   overflow: scroll;
   text-align: center;
-  max-width: 30%;
+  max-width: 35%;
   border-right: 2px solid #484848;
   background: linear-gradient(
     180deg,
-    rgba(134, 147, 98, 1) 0%,
-    rgba(29, 121, 9, 1) 35%,
-    rgba(80, 203, 228, 1) 100%
+    rgb(24, 4, 23) 0%,
+    rgba(29, 121, 9, 1) 20%,
+    rgb(255, 255, 255) 100%
   );
 }
 
